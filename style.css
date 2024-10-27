@@ -1,0 +1,68 @@
+.Fondo{
+    background-color: powderblue;
+}
+
+.poscionamiento{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.titulo{
+    background-color: papayawhip;
+    text-align: center;
+}
+
+.lorem{
+    text-align: justify;
+}
+
+.Matriz{
+    background: cornflowerblue;
+    display: grid;
+    width: 400px;
+    height: auto;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* clases y subclases */
+
+.Matriz .item1:nth-child(1){
+    text-align: center;
+}
+
+.Matriz .item1:nth-child(3){
+    text-align: justify;
+}
+
+.Box{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    display: flex;
+    background: salmon;
+    flex-direction:row;
+}
+
+.item2 span{
+    background-color: cyan;
+}
+
+.logo{
+   width: 200 px;
+   height: auto;
+}
+
+
+.misiontic, .Logo2{
+    display: none;
+}
+
+
+/* queda pendiente */
+@media(min-width: 300px){
+    .misiontic{
+        display: block;
+    }
+
+}
+
